@@ -1,17 +1,25 @@
-import Image from "next/image";
+import styles from './Navbar.module.css';
 
 export default function Navbar() {
   return (
-    <header>
+    <header className={styles.menu}>
+      <a className={styles.logo} href="">
+        <img src="/image/logo-home.png" alt="" />
+      </a>
       <nav>
-        <Image src="/image/logo-home.png" width={160} height={80} alt="logo vinicius jose" />
-        <ul>
-          <li>serviços</li>
-          <li>projetos</li>
-          <li>sobre min</li>
-          <li>contato</li>
-        </ul>
-      </nav>
-    </header>
+        <div className={styles.hamburger}>
+          <div className={styles.line}></div>
+          <div className={styles.line}></div >
+          <div className={styles.line}></div >
+        </div >
+        <ul className={styles.navLinks} >
+          <li><a href="#inicio">inicio</a></li>
+          <li><a href="#servicos">serviços</a></li>
+          <li><a href="#projetos">projetos</a></li>
+          <li><a href="#sobre">sobre min</a></li>
+          <li><a href="#contato">contato</a></li>
+        </ul >
+      </nav >
+    </header >
   )
 }

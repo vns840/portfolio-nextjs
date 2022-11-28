@@ -1,6 +1,6 @@
 export default function SobreMin() {
   return (
-    <section>
+    <section id="SOBRE">
       <h2>sobre min</h2>
       <div>
         <div>

@@ -1,6 +1,6 @@
 export default function Contato() {
   return (
-    <section>
+    <section id="CONTATO">
       <h2>contato</h2>
       <div>
         <div>

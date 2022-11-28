@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Servicos() {
   return (
     <section>
-      <h2>serviços</h2>
+      <h2 id="SERVICOS">serviços</h2>
       <div>
         <div>
           <img src="/image/servicos.svg" alt="" />
